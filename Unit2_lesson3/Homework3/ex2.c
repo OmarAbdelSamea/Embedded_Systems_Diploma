@@ -14,4 +14,5 @@ int main()
         sum += a[i];
     }
     printf("Average = %0.2f", sum/n);
+    free(a);
 }
