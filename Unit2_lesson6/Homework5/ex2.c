@@ -10,7 +10,7 @@ SDistance add_two_distance(SDistance * dist1, SDistance * dist2)
 {
     SDistance sum;
     sum.inch = dist1->inch + dist2->inch;
-    sum.feet = dist1->feet + dist2->feet;
+    sum.feet = dist1->feet + dist2->feet; 
 
    // convert inches to feet if greater than 12
    while (sum.inch >= 12.0) {

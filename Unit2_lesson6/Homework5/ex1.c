@@ -9,7 +9,7 @@ struct SStudnet
 
 
 int main()
-{
+{ 
     printf("Enter information of students: \n");
 
     printf("Enter name: ");

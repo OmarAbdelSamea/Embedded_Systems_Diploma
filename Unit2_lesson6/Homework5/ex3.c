@@ -9,7 +9,7 @@ SComplex add_two_complex(SComplex * num1, SComplex * num2)
 {
     SComplex sum;
     sum.real = num1->real + num2->real;
-    sum.imag = num1->imag + num2->imag;
+    sum.imag = num1->imag + num2->imag; 
 
     return sum;
 }

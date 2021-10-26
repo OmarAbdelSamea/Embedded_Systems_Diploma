@@ -7,7 +7,7 @@ struct SStudnet
     char name[256];
     int roll_number;
     float marks;
-} students[NUM_OF_STUDENTS];
+} students[NUM_OF_STUDENTS]; 
 
 
 int main()
